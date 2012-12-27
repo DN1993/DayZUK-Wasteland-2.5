@@ -1,4 +1,3 @@
-
 //	@file Version: 1.0
 //	@file Name: config.sqf
 //	@file Author: [404] Deadbeat, [404] Costlyy
@@ -73,29 +72,29 @@ provingGrounds = ["18836358",
 //Gunstore Weapon List - Gun Store Base List
 // Text name, classname, buy cost, sell amount
 weaponsArray = [
-	["AK-74","AK_74",50,25],
+	["AK-74","AK_74",40,20],
 	["AK-107 Kobra","AK_107_kobra",75,35],
-	["AKM","AK_47_M",75,35],
-    ["M16A4","M16A4",75,35],
-    ["M4A1","M4A1",50,25],
-    ["M4A1 CCO","M4A1_Aim",100,55],
-    ["M1014","M1014",50,25],
+	["AKM","AK_47_M",65,25],
+    ["M16A4","M16A4",85,40],
+    ["M4A1","M4A1",60,30],
+    ["M4A1 CCO","M4A1_Aim",115,65],
+    ["M1014","M1014",60,30],
     ["Saiga 12K","Saiga12K",100,55],
-    ["M249","M249_EP1",250,120],
-    ["Mk_48 Mod","Mk_48",250,140],
-    ["M240","M240",250,120],
+    ["M249","M249_EP1",270,130],
+    ["Mk_48 Mod","Mk_48",280,140],
+    ["M240","M240",270,130],
     ["Pecheneg","Pecheneg",250,100],
-    ["RPG-7","RPG7V",300,130],
-    ["SMAW","SMAW",300,175],
+    ["RPG-7","RPG7V",280,130],
+    ["SMAW","SMAW",320,175],
     ["Stinger","Stinger",1000,550],
-    ["Javelin","Javelin",1500,750],
-    ["Mk12 SPR","M4SPR",200,120],
-    ["Mk17 Sniper","SCAR_H_LNG_Sniper",500,233],
-    ["Mk17 Sniper SD","SCAR_H_LNG_Sniper_SD",750,455],
-    ["M110 NV","M110_NVG_EP1",1000,666],
-    ["Mk17 Sniper TWS","SCAR_H_STD_TWS_SD",1500,755],
-    ["M107","m107",2000,850],
-    ["M110 TWS","M110_TWS_EP1",2500,1000]
+    ["Javelin","Javelin",1600,780],
+    ["Mk12 SPR","M4SPR",250,140],
+    ["Mk17 Sniper","SCAR_H_LNG_Sniper",600,250],
+    ["Mk17 Sniper SD","SCAR_H_LNG_Sniper_SD",780,460],
+    ["M110 NV","M110_NVG_EP1",1200,700],
+    ["Mk17 Sniper TWS","SCAR_H_STD_TWS_SD",1800,900],
+    ["M107","m107",2200,900],
+    ["M110 TWS","M110_TWS_EP1",3000,1500]
 ];
 
 //Gun Store Ammo List
@@ -112,28 +111,28 @@ ammoArray = [
 	["200Rnd. M249 Belt","200Rnd_556x45_M249",50],
 	["100Rnd. M240","100Rnd_762x51_M240",25],
 	["PKM Mag.","100Rnd_762x54_PK",25],
-    ["PG-7V.","PG7V",85],
+    ["PG-7V.","PG7V",60],
     ["SMAW-HEAA","SMAW_HEAA",100],
-    ["Stinger Ammo","Stinger",225],
-    ["Javelin Ammo","Javelin",250]
+    ["Stinger Ammo","Stinger",300],
+    ["Javelin Ammo","Javelin",300]
 ];
 
 //Gun Store Equipment List
 accessoriesArray = [
-	["Range Finder","Binocular_Vector",500],
-	["NV Goggles","NVGoggles",100]
+	["Range Finder","Binocular_Vector",400],
+	["NV Goggles","NVGoggles",400]
 ];
 
 //General Store Item List
 //Display Name, Class Name, Description, Buy Price, Sell Price.
 generalStore = [
-	["Water","water",localize "STR_WL_ShopDescriptions_Water","client\icons\water.paa",30,15],
-	["Canned Food","canfood",localize "STR_WL_ShopDescriptions_CanFood","client\icons\cannedfood.paa",30,15],
-	["Repair Kit","repairkits",localize "STR_WL_ShopDescriptions_RepairKit","client\icons\briefcase.paa",1000,500],
-	["Medical Kit","medkits",localize "STR_WL_ShopDescriptions_MedKit","client\icons\medkit.paa",400,200],
-	["Jerry Can (Full)","fuelFull",localize "STR_WL_ShopDescriptions_fuelFull","client\icons\jerrycan.paa",150,75],
-    ["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",50,25],
-	["Spawn Beacon","spawnBeacon",localize "STR_WL_ShopDescriptions_spawnBeacon","",3000,1500]
+	["Water","water",localize "STR_WL_ShopDescriptions_Water","client\icons\water.paa",15,8],
+	["Canned Food","canfood",localize "STR_WL_ShopDescriptions_CanFood","client\icons\cannedfood.paa",15,8],
+	["Repair Kit","repairkits",localize "STR_WL_ShopDescriptions_RepairKit","client\icons\briefcase.paa",300,100],
+	["Medical Kit","medkits",localize "STR_WL_ShopDescriptions_MedKit","client\icons\medkit.paa",200,100],
+	["Jerry Can (Full)","fuelFull",localize "STR_WL_ShopDescriptions_fuelFull","client\icons\jerrycan.paa",80,40],
+    ["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",15,5],
+	["Spawn Beacon","spawnBeacon",localize "STR_WL_ShopDescriptions_spawnBeacon","",1800,1000]
 ];
 
 // Chernarus town and city array
